@@ -1,0 +1,6 @@
+fio = input("ФИО: ")
+parts = fio.split()
+initials = "".join(p[0].upper() for p in parts)
+clean = " ".join(parts)
+print(f"Инициалы: {initials}.")
+print(f"Длина (символов): {len(clean)}")
